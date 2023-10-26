@@ -36,10 +36,8 @@ $vehicles =[
 
 $string = "this is my string";
 echo substr($string, 2, 2);
-echo strlen($string);
-echo strpos($string, "o");
+// echo strlen($string);
+// echo strpos($string, "o");
 echo str_replace("this","yes", $string);
 
 echo $string
-
-?>
